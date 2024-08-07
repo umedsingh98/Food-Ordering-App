@@ -5,12 +5,12 @@ import "../../styles/headerStyle.css";
 import Logo from "../../assets/logo/logo.png";
 function Header() {
 
-const [nav,setNav]=useState(false);
+// const [nav,setNav]=useState(false);  
 
-const changeValueOnScroll = () => {
-  const scrollValue = document?.documentElement?.scrollTop;
-  scrollValue = nav > 100
-}
+// const changeValueOnScroll = () => {
+//   const scrollValue = document?.documentElement?.scrollTop;
+//   scrollValue = nav > 100
+// }
   return (
     <header>
       <Navbar collapseOnSelect expand="lg">
